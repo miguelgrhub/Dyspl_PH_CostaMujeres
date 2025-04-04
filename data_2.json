@@ -1,0 +1,227 @@
+{
+  "template": {
+    "type": "JSON",
+    "content": [
+      {
+        "id": "3457686",
+        "Flight": "WS2209",
+        "Time": "18:00",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3597655",
+        "Flight": "WS2065",
+        "Time": "18:40",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3522898",
+        "Flight": "WS2249",
+        "Time": "16:50",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3572555",
+        "Flight": "WS2209",
+        "Time": "18:00",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3930545",
+        "Flight": "AA1132",
+        "Time": "16:29",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "4079699",
+        "Flight": "AA2219",
+        "Time": "14:24",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3619035",
+        "Flight": "WS2141",
+        "Time": "12:30",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3457686",
+        "Flight": "WS2209",
+        "Time": "18:00",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3572637",
+        "Flight": "WS2209",
+        "Time": "18:00",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3523487",
+        "Flight": "WS2209",
+        "Time": "18:00",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3572614",
+        "Flight": "WS2209",
+        "Time": "18:00",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3577998",
+        "Flight": "WS2209",
+        "Time": "18:00",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3572602",
+        "Flight": "WS2209",
+        "Time": "18:00",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3619035",
+        "Flight": "WS2141",
+        "Time": "12:30",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3522898",
+        "Flight": "WS2249",
+        "Time": "16:50",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3613979",
+        "Flight": "WS2065",
+        "Time": "18:40",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3572602",
+        "Flight": "WS2209",
+        "Time": "18:00",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3572637",
+        "Flight": "WS2209",
+        "Time": "18:00",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3586057",
+        "Flight": "WS2209",
+        "Time": "18:00",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3572614",
+        "Flight": "WS2209",
+        "Time": "18:00",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3597682",
+        "Flight": "WS2065",
+        "Time": "18:40",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3618786",
+        "Flight": "WS2317",
+        "Time": "19:40",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3586057",
+        "Flight": "WS2209",
+        "Time": "18:00",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3620517",
+        "Flight": "WS2141",
+        "Time": "12:30",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3572555",
+        "Flight": "WS2209",
+        "Time": "18:00",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "4098220",
+        "Flight": "AA1132",
+        "Time": "15:05",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3457686",
+        "Flight": "WS2209",
+        "Time": "18:00",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3930545",
+        "Flight": "AA1723",
+        "Time": "16:29",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3597729",
+        "Flight": "WS2177",
+        "Time": "16:15",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3523487",
+        "Flight": "WS2209",
+        "Time": "18:00",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3623949",
+        "Flight": "WS2141",
+        "Time": "12:30",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3650986",
+        "Flight": "WS2437",
+        "Time": "14:00",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3572567",
+        "Flight": "WS2209",
+        "Time": "18:00",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3577998",
+        "Flight": "WS2209",
+        "Time": "18:00",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3858384",
+        "Flight": "TBA000",
+        "Time": "15:00",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      },
+      {
+        "id": "3572567",
+        "Flight": "WS2209",
+        "Time": "18:00",
+        "HotelName": "Royalton Splash Riviera Cancun"
+      }
+    ],
+    "source": {
+      "data_source": "Google Sheets (Private)",
+      "update_frequency": "Automated"
+    }
+  }
+}
