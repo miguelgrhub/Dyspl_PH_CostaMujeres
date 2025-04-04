@@ -132,62 +132,10 @@ function startAutoPagination() {
   }, 10000);
 }
 
-// ==================== Navegar: Home → Search ====================
-searchTransferBtn.addEventListener('click', () => {
-  goToSearch();
-});
 
-// (Opcional) Botón “Find your next adventure”
-adventureBtn.addEventListener('click', () => {
-  alert('You clicked "Find your next adventure". Implement your logic here!');
-});
 
-// ==================== Navegar: Search → Home (botón Back) ====================
-backHomeBtn.addEventListener('click', () => {
-  // Restaurar estilos por defecto para el caso negativo
-  //searchResult.style.background = 'transparent';
-  //searchResult.style.border = 'none';
-  //searchResult.style.boxShadow = 'none';
-    searchResult.style.opacity = '0';
-  goToHome();
-});
 
-// ==================== Ir a la pantalla de Búsqueda ====================
-function goToSearch() {
-  homeContainer.style.display = 'none';
-  searchContainer.style.display = 'block';
-  searchResult.innerHTML = '';
-  searchInput.value = '';
-  
-  // Mostrar la leyenda al entrar
-  searchLegend.style.display = 'block';
-  
-  // Detener la auto-paginación y temporizadores
-  if (autoPageInterval) {
-    clearInterval(autoPageInterval);
-    autoPageInterval = null;
-  }
-  if (inactivityTimer) {
-    clearTimeout(inactivityTimer);
-    inactivityTimer = null;
-  }
-}
 
-// ==================== Volver a la pantalla Home ====================
-function goToHome() {
-  searchContainer.style.display = 'none';
-  homeContainer.style.display = 'block';
-  searchResult.innerHTML = '';
-  searchInput.value = '';
-  
-  if (inactivityTimer) {
-    clearTimeout(inactivityTimer);
-    inactivityTimer = null;
-  }
-  
-  currentPage = 1;
-  renderTable();
-}
 
 // ==================== Búsqueda por ID en la pantalla Search ====================
 searchButton.addEventListener('click', () => {
