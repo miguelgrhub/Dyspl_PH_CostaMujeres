@@ -18,13 +18,13 @@
         "id": "3633302",
         "Flight": "WS2437",
         "Time": "14:00",
-        "HotelName": "Royalton Splash Riviera Cancun"
+        "HotelName": "Planet Hollywood Costa Mujeres"
       },
       {
         "id": "38092SE493707",
         "Flight": "Aa1910",
         "Time": "13:32",
-        "HotelName": "Royalton Splash Riviera Cancun"
+        "HotelName": "Planet Hollywood Costa Mujeres"
       },
       {
         "id": "3492881",
@@ -42,7 +42,7 @@
         "id": "3502332",
         "Flight": "WS2209",
         "Time": "18:00",
-        "HotelName": "Royalton Splash Riviera Cancun"
+        "HotelName": "Planet Hollywood Costa Mujeres"
       },
       {
         "id": "3581815",
@@ -114,61 +114,240 @@
         "id": "3502332",
         "Flight": "WS2209",
         "Time": "18:00",
-        "HotelName": "Royalton Splash Riviera Cancun"
+        "HotelName": "Planet Hollywood Costa Mujeres"
       },
       {
         "id": "3649839",
         "Flight": "WS2023",
         "Time": "17:25",
-        "HotelName": "Royalton Splash Riviera Cancun"
+        "HotelName": "Planet Hollywood Costa Mujeres"
       },
       {
         "id": "38092SE508072",
         "Flight": "1694",
         "Time": "15:00",
-        "HotelName": "Royalton Splash Riviera Cancun"
+        "HotelName": "Planet Hollywood Costa Mujeres"
       },
       {
         "id": "3638879",
         "Flight": "WS2437",
         "Time": "14:00",
-        "HotelName": "Royalton Splash Riviera Cancun"
+        "HotelName": "Planet Hollywood Costa Mujeres"
       },
       {
         "id": "4044017",
         "Flight": "AA2665",
         "Time": "14:15",
-        "HotelName": "Royalton Splash Riviera Cancun"
+        "HotelName": "Planet Hollywood Costa Mujeres"
       },
       {
         "id": "3629386",
         "Flight": "WS2263",
         "Time": "15:45",
-        "HotelName": "Royalton Splash Riviera Cancun"
+        "HotelName": "Planet Hollywood Costa Mujeres"
       },
       {
         "id": "3492881",
         "Flight": "WS2207",
         "Time": "18:00",
-        "HotelName": "Royalton Splash Riviera Cancun"
+        "HotelName": "Planet Hollywood Costa Mujeres"
       },
       {
         "id": "3492881",
         "Flight": "WS2207",
         "Time": "18:00",
-        "HotelName": "Royalton Splash Riviera Cancun"
+        "HotelName": "Planet Hollywood Costa Mujeres"
       },
       {
         "id": "3581815",
         "Flight": "WS2437",
         "Time": "14:00",
-        "HotelName": "Royalton Splash Riviera Cancun"
+        "HotelName": "Planet Hollywood Costa Mujeres"
       },
       {
         "id": "3961781",
         "Flight": "TBA000",
         "Time": "15:00",
-        "HotelName": "Royalton Splash Riviera Cancun"
+        "HotelName": "Planet Hollywood Costa Mujeres"
+      }
+    ],
+    "source": {
+      "data_source": "Google Sheets (Private)",
+      "update_frequency": "Automated"
+    }
+  }
+}
+{
+  "template": {
+    "type": "JSON",
+    "content": [
+      {
+        "id": "3633323",
+        "Flight": "WS2437",
+        "Time": "14:00",
+        "HotelName": "Planet Hollywood Costa Mujeres"
+      },
+      {
+        "id": "3492881",
+        "Flight": "WS2209",
+        "Time": "18:00",
+        "HotelName": "Planet Hollywood Costa Mujeres"
+      },
+      {
+        "id": "3633302",
+        "Flight": "WS2437",
+        "Time": "14:00",
+        "HotelName": "Planet Hollywood Costa Mujeres"
+      },
+      {
+        "id": "38092SE493707",
+        "Flight": "Aa1910",
+        "Time": "13:32",
+        "HotelName": "Planet Hollywood Costa Mujeres"
+      },
+      {
+        "id": "3492881",
+        "Flight": "WS2207",
+        "Time": "18:00",
+        "HotelName": "Planet Hollywood Costa Mujeres"
+      },
+      {
+        "id": "3638894",
+        "Flight": "WS2437",
+        "Time": "14:00",
+        "HotelName": "Planet Hollywood Costa Mujeres"
+      },
+      {
+        "id": "3502332",
+        "Flight": "WS2209",
+        "Time": "18:00",
+        "HotelName": "Planet Hollywood Costa Mujeres"
+      },
+      {
+        "id": "3581815",
+        "Flight": "WS2437",
+        "Time": "14:00",
+        "HotelName": "Planet Hollywood Costa Mujeres"
+      },
+      {
+        "id": "3621671",
+        "Flight": "WS2209",
+        "Time": "18:00",
+        "HotelName": "Planet Hollywood Costa Mujeres"
+      },
+      {
+        "id": "38092SE521769",
+        "Flight": "DL0647",
+        "Time": "16:05",
+        "HotelName": "Planet Hollywood Costa Mujeres"
+      },
+      {
+        "id": "38092SE510955",
+        "Flight": "992",
+        "Time": "12:15",
+        "HotelName": "Planet Hollywood Costa Mujeres"
+      },
+      {
+        "id": "3624243",
+        "Flight": "WS2263",
+        "Time": "15:45",
+        "HotelName": "Planet Hollywood Costa Mujeres"
+      },
+      {
+        "id": "4101217",
+        "Flight": "DL641",
+        "Time": "12:40",
+        "HotelName": "Planet Hollywood Costa Mujeres"
+      },
+      {
+        "id": "38092SE508072",
+        "Flight": "1694",
+        "Time": "15:00",
+        "HotelName": "Planet Hollywood Costa Mujeres"
+      },
+      {
+        "id": "3617895",
+        "Flight": "WS2263",
+        "Time": "15:45",
+        "HotelName": "Planet Hollywood Costa Mujeres"
+      },
+      {
+        "id": "3610005",
+        "Flight": "WS2263",
+        "Time": "15:45",
+        "HotelName": "Planet Hollywood Costa Mujeres"
+      },
+      {
+        "id": "3502332",
+        "Flight": "WS2209",
+        "Time": "18:00",
+        "HotelName": "Planet Hollywood Costa Mujeres"
+      },
+      {
+        "id": "38092SE521770",
+        "Flight": "DL0647",
+        "Time": "16:05",
+        "HotelName": "Planet Hollywood Costa Mujeres"
+      },
+      {
+        "id": "3502332",
+        "Flight": "WS2209",
+        "Time": "18:00",
+        "HotelName": "Planet Hollywood Costa Mujeres"
+      },
+      {
+        "id": "3649839",
+        "Flight": "WS2023",
+        "Time": "17:25",
+        "HotelName": "Planet Hollywood Costa Mujeres"
+      },
+      {
+        "id": "38092SE508072",
+        "Flight": "1694",
+        "Time": "15:00",
+        "HotelName": "Planet Hollywood Costa Mujeres"
+      },
+      {
+        "id": "3638879",
+        "Flight": "WS2437",
+        "Time": "14:00",
+        "HotelName": "Planet Hollywood Costa Mujeres"
+      },
+      {
+        "id": "4044017",
+        "Flight": "AA2665",
+        "Time": "14:15",
+        "HotelName": "Planet Hollywood Costa Mujeres"
+      },
+      {
+        "id": "3629386",
+        "Flight": "WS2263",
+        "Time": "15:45",
+        "HotelName": "Planet Hollywood Costa Mujeres"
+      },
+      {
+        "id": "3492881",
+        "Flight": "WS2207",
+        "Time": "18:00",
+        "HotelName": "Planet Hollywood Costa Mujeres"
+      },
+      {
+        "id": "3492881",
+        "Flight": "WS2207",
+        "Time": "18:00",
+        "HotelName": "Planet Hollywood Costa Mujeres"
+      },
+      {
+        "id": "3581815",
+        "Flight": "WS2437",
+        "Time": "14:00",
+        "HotelName": "Planet Hollywood Costa Mujeres"
+      },
+      {
+        "id": "3961781",
+        "Flight": "TBA000",
+        "Time": "15:00",
+        "HotelName": "Planet Hollywood Costa Mujeres"
       }
     ],
     "source": {
