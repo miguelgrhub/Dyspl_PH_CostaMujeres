@@ -7,9 +7,19 @@ let currentPage = 1;           // Página actual
 const itemsPerPage = 15;       // Registros por "página"
 let totalPages = 1;            // Se calculará al cargar
 let autoPageInterval = null;   // Intervalo para auto-cambiar página cada 10s
+let inactivityTimer = null;    // Temporizador de inactividad en la pantalla de búsqueda
 
-// ==================== Referencias a elementos del DOM ====================
+// Referencias a elementos del DOM
+const homeContainer = document.getElementById('home-container');
+const searchContainer = document.getElementById('search-container');
 const tableContainer = document.getElementById('table-container');
+const searchTransferBtn = document.getElementById('search-transfer-btn');
+const adventureBtn = document.getElementById('adventure-btn');
+const backHomeBtn = document.getElementById('back-home-btn');
+const searchInput = document.getElementById('search-input');
+const searchButton = document.getElementById('search-button');
+const searchResult = document.getElementById('search-result');
+const searchLegend = document.getElementById('search-legend');
 const mainTitle = document.getElementById('main-title');
 
 // ==================== Cargar ambos JSON ====================
@@ -121,3 +131,125 @@ function startAutoPagination() {
     renderTable();
   }, 10000);
 }
+
+// ==================== Navegar: Home → Search ====================
+searchTransferBtn.addEventListener('click', () => {
+  goToSearch();
+});
+
+// (Opcional) Botón “Find your next adventure”
+adventureBtn.addEventListener('click', () => {
+  alert('You clicked "Find your next adventure". Implement your logic here!');
+});
+
+// ==================== Navegar: Search → Home (botón Back) ====================
+backHomeBtn.addEventListener('click', () => {
+  // Restaurar estilos por defecto para el caso negativo
+  //searchResult.style.background = 'transparent';
+  //searchResult.style.border = 'none';
+  //searchResult.style.boxShadow = 'none';
+    searchResult.style.opacity = '0';
+  goToHome();
+});
+
+// ==================== Ir a la pantalla de Búsqueda ====================
+function goToSearch() {
+  homeContainer.style.display = 'none';
+  searchContainer.style.display = 'block';
+  searchResult.innerHTML = '';
+  searchInput.value = '';
+  
+  // Mostrar la leyenda al entrar
+  searchLegend.style.display = 'block';
+  
+  // Detener la auto-paginación y temporizadores
+  if (autoPageInterval) {
+    clearInterval(autoPageInterval);
+    autoPageInterval = null;
+  }
+  if (inactivityTimer) {
+    clearTimeout(inactivityTimer);
+    inactivityTimer = null;
+  }
+}
+
+// ==================== Volver a la pantalla Home ====================
+function goToHome() {
+  searchContainer.style.display = 'none';
+  homeContainer.style.display = 'block';
+  searchResult.innerHTML = '';
+  searchInput.value = '';
+  
+  if (inactivityTimer) {
+    clearTimeout(inactivityTimer);
+    inactivityTimer = null;
+  }
+  
+  currentPage = 1;
+  renderTable();
+}
+
+// ==================== Búsqueda por ID en la pantalla Search ====================
+searchButton.addEventListener('click', () => {
+  // Limpiar cualquier temporizador previo
+  if (inactivityTimer) {
+    clearTimeout(inactivityTimer);
+  }
+  
+  // Ocultar la leyenda al hacer clic en "Search"
+  searchLegend.style.display = 'none';
+  searchResult.style.opacity = '1';
+  
+  const query = searchInput.value.trim().toLowerCase();
+  
+  // Si el campo está vacío, regresar inmediatamente al Home
+  if (!query) {
+    goToHome();
+    return;
+  }
+  
+  // Buscar en ambos datasets (today y tomorrow) para mayor flexibilidad
+  let record = todaysRecords.find(item => item.id.toLowerCase() === query);
+  if (!record) {
+    record = tomorrowsRecords.find(item => item.id.toLowerCase() === query);
+  }
+  
+  // Iniciar temporizador de 20s para volver al Home
+  inactivityTimer = setTimeout(() => {
+    goToHome();
+  }, 20000);
+  
+  if (record) {
+    searchResult.innerHTML = `
+      <p><strong>We got you, here is your transfer</strong></p>
+      <table class="transfer-result-table">
+        <thead>
+          <tr>
+            <th>Booking No.</th>
+            <th>Flight No.</th>
+            <th>Hotel</th>
+            <th>Pick-Up time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>${record.id}</td>
+            <td>${record.Flight}</td>
+            <td>${record.HotelName}</td>
+            <td>${record.Time}</td>
+          </tr>
+        </tbody>
+      </table>
+    `;
+  } else {
+    searchResult.innerHTML = `
+      <p class="error-text">
+        If you have any questions about your pickup transfer time, please reach out to your Royalton Excursion Rep at the hospitality desk. You can also contact us easily via chat on the NexusTours App or by calling +52 998 251 6559<br>
+        We're here to assist you!
+      </p>
+      <div class="qr-container">
+        <img src="https://miguelgrhub.github.io/Dyspl/Qr.jpeg" alt="QR Code">
+      </div>
+    `;
+  }
+});
