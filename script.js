@@ -65,7 +65,7 @@ function renderTable() {
     autoPageInterval = null;
   }
   
-  // Asegurarse de que currentRecords esté actualizado según el dataset actual
+  // Actualizar registros y calcular totalPages
   currentRecords = (currentDataset === "today") ? todaysRecords : tomorrowsRecords;
   totalPages = Math.ceil(currentRecords.length / itemsPerPage);
   
@@ -105,16 +105,20 @@ function renderTable() {
   `;
   
   // Información de la página actual
-  let pageInfoHTML = '';
-  if (totalPages > 1) {
-    pageInfoHTML = `<div class="auto-page-info">Page ${currentPage} of ${totalPages}</div>`;
-  }
+  let pageInfoHTML = `<div class="auto-page-info">Page ${currentPage} of ${totalPages}</div>`;
   
   tableContainer.innerHTML = tableHTML + pageInfoHTML;
   
-  // Si hay más de una página, iniciar auto-paginación
+  // Si hay más de una página, iniciar auto-paginación; de lo contrario, cambiar al otro dataset después de 10 segundos
   if (totalPages > 1) {
     startAutoPagination();
+  } else {
+    setTimeout(() => {
+      currentDataset = (currentDataset === "today") ? "tomorrow" : "today";
+      updateTitle();
+      currentPage = 1;
+      renderTable();
+    }, 10000);
   }
 }
 
@@ -144,11 +148,7 @@ adventureBtn.addEventListener('click', () => {
 
 // ==================== Navegar: Search → Home (botón Back) ====================
 backHomeBtn.addEventListener('click', () => {
-  // Restaurar estilos por defecto para el caso negativo
-  //searchResult.style.background = 'transparent';
-  //searchResult.style.border = 'none';
-  //searchResult.style.boxShadow = 'none';
-    searchResult.style.opacity = '0';
+  searchResult.style.opacity = '0';
   goToHome();
 });
 
