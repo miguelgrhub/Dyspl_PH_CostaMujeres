@@ -253,6 +253,10 @@ footer {
   width: 100%;
   height: auto;
 }
+.logo_nexus_bdr {
+  width: 90%;
+  max-width: 944px;
+}
 
 /*.result {
   background: transparent;
