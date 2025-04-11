@@ -257,6 +257,11 @@ footer {
   width: 90%;
   max-width: 944px;
 }
+.logo_ph{
+  width:25%;
+  margin:auto;
+  display:block;
+}
 
 /*.result {
   background: transparent;
