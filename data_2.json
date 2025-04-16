@@ -4,8 +4,14 @@
     "content": [
       {
         "id": "9896SE633393",
-        "Flight": "UPP000",
-        "Time": "15:00",
+        "Flight": "TBA000",
+        "Time": "00:00",
+        "HotelName": "Contact your Planet Experience Rep"
+      },
+      {
+        "id": "243XGV",
+        "Flight": "WN1608",
+        "Time": "12:45",
         "HotelName": "Planet Hollywood Cancun"
       },
       {
@@ -29,7 +35,7 @@
       {
         "id": "9896SE651262",
         "Flight": "Y43554",
-        "Time": "10:20",
+        "Time": "10:18",
         "HotelName": "Planet Hollywood Cancun"
       },
       {
@@ -65,7 +71,7 @@
       {
         "id": "9896SE686196",
         "Flight": "TBA000",
-        "Time": "15:00",
+        "Time": "00:00",
         "HotelName": "Contact your Planet Experience Rep"
       },
       {
@@ -77,7 +83,7 @@
       {
         "id": "9896SE679007",
         "Flight": "F971",
-        "Time": "14:30",
+        "Time": "14:33",
         "HotelName": "Planet Hollywood Cancun"
       },
       {
@@ -185,7 +191,7 @@
       {
         "id": "9896SE633361",
         "Flight": "TBA000",
-        "Time": "15:00",
+        "Time": "00:00",
         "HotelName": "Contact your Planet Experience Rep"
       },
       {
@@ -232,9 +238,9 @@
       },
       {
         "id": "9896SE663279",
-        "Flight": "SWA1608",
-        "Time": "12:45",
-        "HotelName": "Planet Hollywood Cancun"
+        "Flight": "TBA000",
+        "Time": "00:00",
+        "HotelName": "Contact your Planet Experience Rep"
       }
     ],
     "source": {
