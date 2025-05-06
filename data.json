@@ -3,9 +3,21 @@
     "type": "JSON",
     "content": [
       {
-        "id": "9896SE642206",
-        "Flight": "NK1030",
-        "Time": "12:15",
+        "id": "9896SF727369",
+        "Flight": "AA316",
+        "Time": "07:50",
+        "HotelName": "Planet Hollywood Cancun"
+      },
+      {
+        "id": "136446635",
+        "Flight": "WG507",
+        "Time": "14:40",
+        "HotelName": "Planet Hollywood Cancun"
+      },
+      {
+        "id": "143390783",
+        "Flight": "WG536",
+        "Time": "11:35",
         "HotelName": "Planet Hollywood Cancun"
       },
       {
@@ -15,87 +27,27 @@
         "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
       },
       {
-        "id": "8DRQ75",
-        "Flight": "AV69",
-        "Time": "15:45",
+        "id": "9896SF738511",
+        "Flight": "TS327",
+        "Time": "11:15",
         "HotelName": "Planet Hollywood Cancun"
       },
       {
         "id": "8DRQ75",
-        "Flight": "E9814",
-        "Time": "21:20",
-        "HotelName": "Planet Hollywood Cancun"
-      },
-      {
-        "id": "C99N4R",
-        "Flight": "AV257",
-        "Time": "12:45",
-        "HotelName": "Planet Hollywood Cancun"
-      },
-      {
-        "id": "9896SF695860",
-        "Flight": "TBA000",
-        "Time": "15:00",
-        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
-      },
-      {
-        "id": "9896SF739202",
-        "Flight": "VB7416",
-        "Time": "10:20",
-        "HotelName": "Planet Hollywood Cancun"
-      },
-      {
-        "id": "N-able Group",
-        "Flight": "AC1883",
-        "Time": "14:00",
+        "Flight": "AA2665",
+        "Time": "14:20",
         "HotelName": "Planet Hollywood Cancun"
       },
       {
         "id": "BODAR&Y",
-        "Flight": "AV69",
-        "Time": "15:45",
+        "Flight": "AA2665",
+        "Time": "14:20",
         "HotelName": "Planet Hollywood Cancun"
       },
       {
-        "id": "BODAR&Y",
-        "Flight": "E9814",
-        "Time": "21:20",
-        "HotelName": "Planet Hollywood Cancun"
-      },
-      {
-        "id": "9896SE669734",
-        "Flight": "AM523",
-        "Time": "11:32",
-        "HotelName": "Planet Hollywood Cancun"
-      },
-      {
-        "id": "9896SF695843",
-        "Flight": "TBA000",
-        "Time": "15:00",
-        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
-      },
-      {
-        "id": "W9G937",
-        "Flight": "AA992",
-        "Time": "12:29",
-        "HotelName": "Planet Hollywood Cancun"
-      },
-      {
-        "id": "3963949",
-        "Flight": "TBA000",
-        "Time": "15:00",
-        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
-      },
-      {
-        "id": "142123383",
-        "Flight": "WG5114",
-        "Time": "10:25",
-        "HotelName": "Planet Hollywood Cancun"
-      },
-      {
-        "id": "3661389",
-        "Flight": "WS2315",
-        "Time": "16:55",
+        "id": "3663624",
+        "Flight": "WS2425",
+        "Time": "13:10",
         "HotelName": "Planet Hollywood Cancun"
       }
     ],
