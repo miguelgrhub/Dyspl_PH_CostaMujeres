@@ -308,6 +308,11 @@ footer {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
 }
+.logo_ph {
+  width: 50%;
+  margin: auto;
+  display: block;
+}
 
 /*.result {
   background: transparent;
