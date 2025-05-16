@@ -80,14 +80,9 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 26px;
-  padding: 20px;
-  border: 2px solid #D0DFDF;
-  border-radius: 20px;
-  background: #FFF;
   margin: 0 auto;
   max-width: 944px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-transform: uppercase;
 }
 
 /* Estilo de la tabla */
@@ -96,17 +91,24 @@ footer {
   border-collapse: collapse;
 }
 
-.table-container th,
+.table-container th {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  font-size: 1.2rem;
+  color: #FFF;
+}
 .table-container td {
   padding: 12px;
   text-align: left;
   border-bottom: 1px solid #ccc;
   font-size: 1rem;
+  color: #FFF;
 }
 
 .table-container th {
-  background-color: #f9f9f9;
-  color: #F17121; /* Naranja */
+  background-color: #000000;
+  color: #fdfdfd; /* Naranja */
   font-weight: bold;
 }
 
@@ -114,7 +116,7 @@ footer {
 .auto-page-info {
   text-align: center;
   width: 100%;
-  color: #666;
+  color: #FFF;
   font-size: 0.85rem;
 }
 
@@ -225,12 +227,14 @@ footer {
   text-align: left;
   border-bottom: 1px solid #ccc;
   font-size: 0.9rem;
+  text-transform: uppercase;
 }
 
 .transfer-result-table th {
-  background-color: #f9f9f9;
-  color: #F17121;
+  background-color: #000000;
+  color: #FFF;
   font-weight: bold;
+  font-size: 1.2rem;
 }
 
 /* Ícono genérico */
@@ -254,13 +258,55 @@ footer {
   height: auto;
 }
 .logo_nexus_bdr {
-  width: 90%;
+  width: 100%;
   max-width: 944px;
 }
-.logo_ph{
-  width:25%;
-  margin:auto;
-  display:block;
+.titulo_result {
+  color: #FFF;
+  font-size: 1.2rem; 
+}
+.bktable {
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+  padding: 20px;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  background: #000000;
+  margin: 0 auto;
+  max-width: 944px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+}
+.bktableqr {
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+  padding: 20px;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  margin: 0 auto;
+  max-width: 944px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+}
+.bktableqrresultados {
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+  padding: 20px;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  margin: 0 auto;
+  max-width: 944px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
 }
 
 /*.result {
