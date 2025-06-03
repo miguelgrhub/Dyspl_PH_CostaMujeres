@@ -3,238 +3,221 @@
     "type": "JSON",
     "content": [
       {
-        "id": "9896SE583158",
-        "Flight": "NOT CONFIRMED",
-        "Time": "⚠️",
-        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
-      },
-      {
-        "id": "9896SF702799",
-        "Flight": "AA2665",
-        "Time": "14:20",
-        "HotelName": "Planet Hollywood Cancun"
-      },
-      {
-        "id": "80828847",
-        "Flight": "NOT CONFIRMED",
-        "Time": "⚠️",
-        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
-      },
-      {
-        "id": "4118175",
-        "Flight": "SY512",
-        "Time": "13:00",
-        "HotelName": "Planet Hollywood Cancun"
-      },
-      {
-        "id": "4192057",
+        "id": "3947839",
         "Flight": "AA1068",
-        "Time": "12:00",
+        "PickupDate": null,
+        "PickupTime": null,
         "HotelName": "Planet Hollywood Cancun"
       },
       {
-        "id": "OLR 40011",
-        "Flight": "NOT CONFIRMED",
-        "Time": "⚠️",
-        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
-      },
-      {
-        "id": "9896SF758191",
-        "Flight": "NOT CONFIRMED",
-        "Time": "⚠️",
-        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
-      },
-      {
-        "id": "9896SE615679",
-        "Flight": "NOT CONFIRMED",
-        "Time": "⚠️",
-        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
-      },
-      {
-        "id": "9896SF707187",
-        "Flight": "DL597",
-        "Time": "13:45",
+        "id": "3947839",
+        "Flight": "WN1025",
+        "PickupDate": null,
+        "PickupTime": null,
         "HotelName": "Planet Hollywood Cancun"
       },
       {
-        "id": "9896SE661154",
-        "Flight": "Y43626",
-        "Time": "13:55",
+        "id": "3950179",
+        "Flight": "AA1469",
+        "PickupDate": null,
+        "PickupTime": null,
         "HotelName": "Planet Hollywood Cancun"
       },
       {
-        "id": "9896SF741089",
-        "Flight": "NOT CONFIRMED",
-        "Time": "⚠️",
-        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
-      },
-      {
-        "id": "9896SF707625",
-        "Flight": "AA1068",
-        "Time": "12:00",
+        "id": "3947668",
+        "Flight": "AA1469",
+        "PickupDate": null,
+        "PickupTime": null,
         "HotelName": "Planet Hollywood Cancun"
       },
       {
-        "id": "9896SF718933",
-        "Flight": "DL0647",
-        "Time": "16:15",
+        "id": "3947668",
+        "Flight": "AA215",
+        "PickupDate": null,
+        "PickupTime": null,
         "HotelName": "Planet Hollywood Cancun"
       },
       {
-        "id": "4192239",
-        "Flight": "AA1068",
-        "Time": "12:00",
+        "id": "9896SE564408",
+        "Flight": "NOT CONFIRMED",
+        "PickupDate": null,
+        "PickupTime": "⚠️",
+        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
+      },
+      {
+        "id": "9896SF693262",
+        "Flight": "NOT CONFIRMED",
+        "PickupDate": null,
+        "PickupTime": "⚠️",
+        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
+      },
+      {
+        "id": "73028674",
+        "Flight": "NOT CONFIRMED",
+        "PickupDate": null,
+        "PickupTime": "⚠️",
+        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
+      },
+      {
+        "id": "3662141",
+        "Flight": "WS2425",
+        "PickupDate": null,
+        "PickupTime": null,
         "HotelName": "Planet Hollywood Cancun"
       },
       {
-        "id": "87673916",
+        "id": "84835948",
         "Flight": "NOT CONFIRMED",
-        "Time": "⚠️",
+        "PickupDate": null,
+        "PickupTime": "⚠️",
         "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
       },
       {
-        "id": "93028588",
+        "id": "NKN76L",
         "Flight": "NOT CONFIRMED",
-        "Time": "⚠️",
+        "PickupDate": null,
+        "PickupTime": "⚠️",
         "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
       },
       {
-        "id": "90350094",
-        "Flight": "NOT CONFIRMED",
-        "Time": "⚠️",
-        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
-      },
-      {
-        "id": "72196052",
-        "Flight": "NOT CONFIRMED",
-        "Time": "⚠️",
-        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
-      },
-      {
-        "id": "4192282",
-        "Flight": "AA1068",
-        "Time": "12:00",
+        "id": "9896SE632978",
+        "Flight": "WN750",
+        "PickupDate": null,
+        "PickupTime": null,
         "HotelName": "Planet Hollywood Cancun"
       },
       {
-        "id": "HTXA-25629591",
-        "Flight": "TOM049",
-        "Time": "16:05",
+        "id": "9896SF698617",
+        "Flight": "UPP000",
+        "PickupDate": null,
+        "PickupTime": null,
         "HotelName": "Planet Hollywood Cancun"
       },
       {
-        "id": "80715641",
-        "Flight": "NOT CONFIRMED",
-        "Time": "⚠️",
-        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
-      },
-      {
-        "id": "9896SF735066",
-        "Flight": "NOT CONFIRMED",
-        "Time": "⚠️",
-        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
-      },
-      {
-        "id": "A5C2166W58",
-        "Flight": "NOT CONFIRMED",
-        "Time": "⚠️",
-        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
-      },
-      {
-        "id": "9896SE631039",
-        "Flight": "F71",
-        "Time": "15:25",
+        "id": "9896SF745417",
+        "Flight": "WN306",
+        "PickupDate": null,
+        "PickupTime": null,
         "HotelName": "Planet Hollywood Cancun"
       },
       {
-        "id": "4192040",
-        "Flight": "AA1068",
-        "Time": "12:00",
+        "id": "9896SE635717",
+        "Flight": "NOT CONFIRMED",
+        "PickupDate": null,
+        "PickupTime": "⚠️",
+        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
+      },
+      {
+        "id": "9896SF751139",
+        "Flight": "NOT CONFIRMED",
+        "PickupDate": null,
+        "PickupTime": "⚠️",
+        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
+      },
+      {
+        "id": "82275533",
+        "Flight": "NOT CONFIRMED",
+        "PickupDate": null,
+        "PickupTime": "⚠️",
+        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
+      },
+      {
+        "id": "9896SF751140",
+        "Flight": "NOT CONFIRMED",
+        "PickupDate": null,
+        "PickupTime": "⚠️",
+        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
+      },
+      {
+        "id": "72654173",
+        "Flight": "NOT CONFIRMED",
+        "PickupDate": null,
+        "PickupTime": "⚠️",
+        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
+      },
+      {
+        "id": "3950197",
+        "Flight": "AA1469",
+        "PickupDate": null,
+        "PickupTime": null,
         "HotelName": "Planet Hollywood Cancun"
       },
       {
-        "id": "4333097",
-        "Flight": "F90083",
-        "Time": "10:59",
+        "id": "9896SF747911",
+        "Flight": "VB2198",
+        "PickupDate": null,
+        "PickupTime": null,
         "HotelName": "Planet Hollywood Cancun"
       },
       {
-        "id": "4295001",
-        "Flight": "F90083",
-        "Time": "10:59",
+        "id": "9896SF698617",
+        "Flight": "NOT CONFIRMED",
+        "PickupDate": null,
+        "PickupTime": "⚠️",
+        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
+      },
+      {
+        "id": "XGQXWZ",
+        "Flight": "NOT CONFIRMED",
+        "PickupDate": null,
+        "PickupTime": "⚠️",
+        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
+      },
+      {
+        "id": "3966455",
+        "Flight": "AA1469",
+        "PickupDate": null,
+        "PickupTime": null,
         "HotelName": "Planet Hollywood Cancun"
       },
       {
-        "id": "9896SF719085",
-        "Flight": "DL0647",
-        "Time": "16:15",
+        "id": "73032135",
+        "Flight": "NOT CONFIRMED",
+        "PickupDate": null,
+        "PickupTime": "⚠️",
+        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
+      },
+      {
+        "id": "CO10773A1L63396",
+        "Flight": "NOT CONFIRMED",
+        "PickupDate": null,
+        "PickupTime": "⚠️",
+        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
+      },
+      {
+        "id": "9896SF693262",
+        "Flight": "NOT CONFIRMED",
+        "PickupDate": null,
+        "PickupTime": "⚠️",
+        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
+      },
+      {
+        "id": "69-7565329",
+        "Flight": "Y45589",
+        "PickupDate": null,
+        "PickupTime": null,
         "HotelName": "Planet Hollywood Cancun"
       },
       {
-        "id": "72923987",
+        "id": "93469264",
         "Flight": "NOT CONFIRMED",
-        "Time": "⚠️",
+        "PickupDate": null,
+        "PickupTime": "⚠️",
         "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
       },
       {
-        "id": "9896SF689376",
-        "Flight": "AA2665",
-        "Time": "14:20",
+        "id": "9896SE641473",
+        "Flight": "NOT CONFIRMED",
+        "PickupDate": null,
+        "PickupTime": "⚠️",
+        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
+      },
+      {
+        "id": "XW571L",
+        "Flight": "B61366",
+        "PickupDate": null,
+        "PickupTime": null,
         "HotelName": "Planet Hollywood Cancun"
-      },
-      {
-        "id": "84974546",
-        "Flight": "NOT CONFIRMED",
-        "Time": "⚠️",
-        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
-      },
-      {
-        "id": "9896SE661155",
-        "Flight": "Y43626",
-        "Time": "13:55",
-        "HotelName": "Planet Hollywood Cancun"
-      },
-      {
-        "id": "9896SF758193",
-        "Flight": "NOT CONFIRMED",
-        "Time": "⚠️",
-        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
-      },
-      {
-        "id": "80828866",
-        "Flight": "NOT CONFIRMED",
-        "Time": "⚠️",
-        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
-      },
-      {
-        "id": "85343243",
-        "Flight": "NOT CONFIRMED",
-        "Time": "⚠️",
-        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
-      },
-      {
-        "id": "4192334",
-        "Flight": "AA1068",
-        "Time": "12:00",
-        "HotelName": "Planet Hollywood Cancun"
-      },
-      {
-        "id": "9896SE615680",
-        "Flight": "NOT CONFIRMED",
-        "Time": "⚠️",
-        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
-      },
-      {
-        "id": "9896SF725324",
-        "Flight": "NOT CONFIRMED",
-        "Time": "⚠️",
-        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
-      },
-      {
-        "id": "80828856",
-        "Flight": "NOT CONFIRMED",
-        "Time": "⚠️",
-        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP"
       }
     ],
     "source": {
