@@ -27,6 +27,14 @@
         "HotelNumber": 13156
       },
       {
+        "id": "3J25HT",
+        "Flight": "AC1811",
+        "PickupDate": "2025-09-23",
+        "PickupTime": "06:20",
+        "HotelName": "Planet Hollywood Cancun",
+        "HotelNumber": 13156
+      },
+      {
         "id": "4495737",
         "Flight": "B60152",
         "PickupDate": "2025-09-23",
@@ -76,9 +84,9 @@
       },
       {
         "id": "9896SF805021",
-        "Flight": "TBA000",
+        "Flight": "WN308",
         "PickupDate": "2025-09-23",
-        "PickupTime": "⚠️",
+        "PickupTime": "12:25",
         "HotelName": "Planet Hollywood Cancun",
         "HotelNumber": 13156
       },
