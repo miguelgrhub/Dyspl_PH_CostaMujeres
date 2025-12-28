@@ -68,10 +68,10 @@
       },
       {
         "id": "9896SF772681",
-        "Flight": "NOT CONFIRMED",
+        "Flight": "DL597",
         "PickupDate": "2025-12-29",
-        "PickupTime": "⚠️",
-        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP",
+        "PickupTime": "11:00",
+        "HotelName": "Planet Hollywood Cancun",
         "HotelNumber": 13156
       },
       {
@@ -140,10 +140,10 @@
       },
       {
         "id": "9896SF772693",
-        "Flight": "NOT CONFIRMED",
+        "Flight": "DL618",
         "PickupDate": "2025-12-29",
-        "PickupTime": "⚠️",
-        "HotelName": "CONTACT YOUR PLANET EXPERIENCE REP",
+        "PickupTime": "09:50",
+        "HotelName": "Planet Hollywood Cancun",
         "HotelNumber": 13156
       },
       {
@@ -284,7 +284,7 @@
       },
       {
         "id": "9896SF738062",
-        "Flight": "UPP000",
+        "Flight": "TBA000",
         "PickupDate": "2025-12-29",
         "PickupTime": "⚠️",
         "HotelName": "Planet Hollywood Cancun",
